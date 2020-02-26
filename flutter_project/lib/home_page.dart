@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_osc_client/constants/constants.dart' show AppColors;
 import 'package:flutter_osc_client/pages/discovery_page.dart';
 import 'package:flutter_osc_client/pages/news_list_page.dart';
 import 'package:flutter_osc_client/pages/profile_page.dart';
 import 'package:flutter_osc_client/pages/tweet_page.dart';
 import 'package:flutter_osc_client/widgets/my_drawer.dart';
 import 'package:flutter_osc_client/widgets/navigation_icon_view.dart';
-
-import 'constants/constants.dart';
 
 class HomePage extends StatefulWidget {
   @override
