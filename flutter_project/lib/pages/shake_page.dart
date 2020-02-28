@@ -72,9 +72,11 @@ class _ShakePageState extends State<ShakePage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.folder), title: Text('礼品')),
+          BottomNavigationBarItem(icon: Icon(Icons.folder),
+              title: Text('礼品')),
           BottomNavigationBarItem(
-              icon: Icon(Icons.assignment), title: Text('资讯'))
+              icon: Icon(Icons.assignment),
+              title: Text('资讯'))
         ],
         currentIndex: _curentIndex,
         onTap: (index) {
